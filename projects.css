@@ -1,0 +1,121 @@
+body{
+    margin:0vw;
+    padding:0vw;
+    background-color:#292B21;
+    overflow-x: hidden;
+}
+.header{
+    display:grid;
+    grid-template-columns: 14vw auto auto;
+}
+.header .socialm{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:0vw;
+}
+.header .socialm{
+    margin:auto;
+    margin-left:2vw;
+    margin-top:3vw;
+}
+.header .socialm .instagram{
+    width:100%;
+}
+.header .socialm .instagram img{
+    width:100%;
+}
+.header .socialm .e-mail{
+    width:100%;
+}
+.header .socialm .e-mail img{
+    width:100%;
+}
+.header .logo{
+    width:56%;
+    margin:auto;
+    margin-left:25vw;
+    margin-top:2vw;   
+}
+.header .logo img{
+    width:56%;
+}
+.links{
+    display:grid;
+    grid-template-columns: 8vw 8vw;
+    grid-gap:2vw;
+    margin-left:10vw;
+}
+.links .link{
+    width:100%;
+    margin:auto;
+    margin-top:4vw;
+}   
+.links .link img{
+
+    width:100%;
+}
+.heading{
+    margin:auto;
+    margin-left:25vw;
+}
+.heading h5{
+color:lightgray;
+}
+.proj{
+    margin:auto;
+    margin-left:21vw;
+    margin-top:3vw;
+    margin-bottom:7vw;
+}
+.proj .title{
+    margin:4vw;
+    width:80%;
+}
+.proj .title img{
+    width:80%;
+}
+@media only screen and (max-width:600px) {
+    .header{
+        display:grid;
+        grid-template-columns: 18vw auto auto;
+    }
+    .header .socialm{
+        display: grid;
+        grid-template-columns: 12vw ;
+        margin-top:15vw;
+    }
+    .header .logo{
+        width:90%;
+        margin:auto;
+        margin-left:8vw;
+        margin-top:2vw;        
+    }
+    .header .logo img{
+        width:76%;
+    }
+    .links{
+        display:grid;
+        grid-template-columns: 20vw;
+        grid-gap:0vw;
+        margin-left:4vw;
+        margin-top:15vw;
+    }
+    .heading{
+        margin-left:14vw;
+    }
+    .heading h5{
+        font-size: 10px;
+    }
+    .proj{
+        margin:auto;
+        margin-left:10vw;
+        margin-top:3vw;
+        margin-bottom:12vw;
+    }
+    .proj .title{
+        width:100%;
+        margin-bottom:10vw;
+    }
+    .proj .title{
+        width:100%;
+    }
